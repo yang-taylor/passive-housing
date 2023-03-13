@@ -48,11 +48,11 @@ h2 {
 }
 
 .ref_block {
-	flex: 20%;
+	flex: 30%;
 	margin-right: 1rem;
 	margin-left: 1rem;
 	margin-bottom: 1rem;
-	padding: 0.9rem;
+	padding: 0.5rem;
 	background-color: #4b6043;
 	color: #ddead1;
 	text-decoration: none;
