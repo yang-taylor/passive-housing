@@ -8,6 +8,7 @@ body {
 	margin: 1rem;
 	padding: 1rem;
 	font-family: 'Inter', sans-serif;
+	font-size: 1.2rem;
 }
 
 h1 {
@@ -60,5 +61,9 @@ h2 {
 .ref_block:hover {
 	color: #4b6043;
 	background-color: #ddead1;
-	border: solid 1ch #4b6043;
+	border: solid 0.2ch #4b6043;
+}
+
+img {
+	max-width: 40%;
 }
