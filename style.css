@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+	background-color: #ddead1;
+	color: #22311d;
+	margin: 1rem;
+	padding: 1rem;
+	/* font-family: 'Comic Neue', cursive; */
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	/* font-family: 'Press Start 2P', cursive; */
+	/* font-family: 'Bangers', cursive; */
+	font-family: 'Bebas Neue', cursive;
+	font-size: 4rem;
+	text-align: center;
+}
+
+h2 {
+	/* font-family: 'Bangers', cursive; */
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2rem;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.idea_block {
+	/* flex: max(30%, 300px); */
+	flex: 40%;
+	margin: 2rem;
+	padding: 1rem;
+	border: solid 0.5rem #4b6043;
+	transition: .3s;
+}
+
+
+.idea_block:hover {
+	transform: scale(1.05);
+}
